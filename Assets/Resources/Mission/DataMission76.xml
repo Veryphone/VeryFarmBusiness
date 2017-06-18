@@ -1,0 +1,81 @@
+<Missions level="76">
+  <Target startMoney="2000" timeMission="18" targetMoney="4500" maxCustomer="100"/>    
+  <Star twoStar="5100" threeStar="6200" reward="1-1-3"/>
+
+  <Farm>
+    <Field id="1" startNumber="11" startLevel="2" maxLevel="4"/>
+    <Field id="2" startNumber="6" startLevel="2" maxLevel="4"/>
+    <Field id="3" startNumber="3" startLevel="2" maxLevel="4"/>
+    <Seed id="1" startNumber="4"/>
+	<Seed id="4" startNumber="7"/>
+	<Seed id="5"/>
+    <Seed id="7" startNumber="6"/> 
+	<Seed id="8" startNumber="3"/>
+  </Farm>
+  <Factory countPosition="4">
+    <Machine id="1" startLevel="2" maxLevel="3"/>
+	<Machine id="2" startLevel="2" maxLevel="3"/>
+    <Machine id="3" startLevel="2" maxLevel="3"/>
+    <Machine id="4" startLevel="2" maxLevel="3"/>	
+  </Factory>
+
+  <Shop>
+    <Product id="7" numberRequest="20"/>
+	<Product id="8"/>
+	<Product id="10"/>
+	<Product id="12" numberRequest="20"/>
+	<Product id="13"/>
+	<Product id="16"/>
+	<Product id="17"/>
+	<Product id="18" targetProduction="20" numberRequest="20"/>
+    <Product id="19"/>
+	<Product id="20" targetProduction="20" numberRequest="20"/>
+    <Product id="22" numberRequest="20"/>
+     <Weather startNumber="true"/>
+  </Shop>
+
+<City>
+    <Building id="0" name="staffhouse">
+      <Staff id="1" maxLevel="3"/>
+      <Staff id="2" maxLevel="3"/>
+      <Staff id="3" maxLevel="3"/>	
+	  <Staff id="4" />	  
+	</Building>
+	
+	 <Building id="1" name="supermarket">
+	  <Product id="7"/>
+	  <Product id="8"/>
+      <Product id="9"/>
+	  <Product id="10"/>
+	  <Product id="12"/>
+	  <Product id="13"/>
+	  <Product id="16"/>  
+	  <Product id="17"/>
+	  <Product id="18"/>
+      <Product id="19"/>
+      <Product id="22"/>
+    </Building>
+	<Building id="2" name="media">
+      <Forms id="0"/>
+      <Forms id="1"/>
+	  <Forms id="2"/>
+	  <Forms id="3"/>
+	  <Forms id="4"/>
+	</Building>
+	  
+	 <Building id="3" name="research">
+      <Forms id="0"/>
+      <Forms id="1"/>
+	  <Forms id="2"/>
+	  <Forms id="3"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+	
+	<Building id="5" name="technology">
+    </Building>
+</City>
+ 
+  
+  </Missions>
